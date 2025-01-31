@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Registry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Land Registry</h2>
+        
+        <h3>Register Land</h3>
+        <input type="text" id="landId" placeholder="Land ID">
+        <input type="text" id="location" placeholder="Location">
+        <input type="text" id="area" placeholder="Area (sqm)">
+        <button onclick="registerLand()">Register</button>
+        
+        <h3>Transfer Ownership</h3>
+        <input type="text" id="transferId" placeholder="Land ID">
+        <input type="text" id="newOwner" placeholder="New Owner Address">
+        <button onclick="transferOwnership()">Transfer</button>
+        
+        <h3>Get Land Details</h3>
+        <input type="text" id="searchId" placeholder="Land ID">
+        <button onclick="getLandDetails()">Get Details</button>
+        <p id="landDetails"></p>
+    </div>
+    
+    <script>
+        function registerLand() {
+            alert("Land Registered: " + document.getElementById("landId").value);
+        }
+        function transferOwnership() {
+            alert("Ownership Transferred for Land ID: " + document.getElementById("transferId").value);
+        }
+        function getLandDetails() {
+            document.getElementById("landDetails").innerText = "Land Details: ID = " + document.getElementById("searchId").value;
+        }
+    </script>
+</body>
+</html>
