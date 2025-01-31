@@ -1,4 +1,4 @@
-**##LandRegistry Smart Contract**
+**##LandRegistry Smart Contract##**
 The LandRegistry smart contract is a decentralized land ownership system built on Ethereum. It allows users to register land parcels, transfer ownership, and retrieve land details securely and transparently.
 
 ✅ #Features
