@@ -24,4 +24,4 @@ This contract enhances security and trust in land ownership management through b
 • Ethereum Blockchain (Decentralized ownership records)
 
 **LinkedIn**
-🔗 Connect with me on LinkedIn: Jay Poriya
+🔗 Connect with me on LinkedIn: https://www.linkedin.com/in/jay-poriya-292b20264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
